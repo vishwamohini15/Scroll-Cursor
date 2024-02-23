@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family:'gilroy';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#name{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#dot{
+    height: 60px;
+    width: 60px;
+    background-color:yellow;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    transition: all linear 0.1s;
+   mix-blend-mode: difference;
+}
+h1{
+    font-size: 75px;
+    font-weight: 600;
+
+}
